@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TestTaskGithabAPI</string>
+    <string name="Forks">Forks</string>
+    <string name="Search">Search</string>
+    <string name="ErrorMsg">Failed</string>
+    <string name="ErrorBtn">TRY AGAIN</string>
 </resources>

@@ -1,9 +1,9 @@
 package com.danilatyukov.testtaskgithabapi.di
 
 import com.danilatyukov.testtaskgithabapi.data.network.GitHubApi
-import com.danilatyukov.testtaskgithabapi.data.repository.FileProviderRepository
+import com.danilatyukov.testtaskgithabapi.domain.FileProviderRepository
 import com.danilatyukov.testtaskgithabapi.data.repository.GitHubApiRepositoryImpl
-import com.danilatyukov.testtaskgithabapi.data.repository.SearchRepository
+import com.danilatyukov.testtaskgithabapi.domain.SearchRepository
 import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

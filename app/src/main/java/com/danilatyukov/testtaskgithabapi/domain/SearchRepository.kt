@@ -1,7 +1,6 @@
-package com.danilatyukov.testtaskgithabapi.data.repository
+package com.danilatyukov.testtaskgithabapi.domain
 
 import com.danilatyukov.testtaskgithabapi.data.network.model.ReposSearchResponseBody
-import com.danilatyukov.testtaskgithabapi.data.network.model.Resource
 import com.danilatyukov.testtaskgithabapi.data.network.model.UsersSearchResponseBody
 
 interface SearchRepository {

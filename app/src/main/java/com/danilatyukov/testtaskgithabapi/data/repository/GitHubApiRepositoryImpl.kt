@@ -3,8 +3,10 @@ package com.danilatyukov.testtaskgithabapi.data.repository
 import com.danilatyukov.testtaskgithabapi.data.network.GitHubApi
 import com.danilatyukov.testtaskgithabapi.data.network.model.RepoStructureResponseBody
 import com.danilatyukov.testtaskgithabapi.data.network.model.ReposSearchResponseBody
-import com.danilatyukov.testtaskgithabapi.data.network.model.Resource
+import com.danilatyukov.testtaskgithabapi.domain.Resource
 import com.danilatyukov.testtaskgithabapi.data.network.model.UsersSearchResponseBody
+import com.danilatyukov.testtaskgithabapi.domain.FileProviderRepository
+import com.danilatyukov.testtaskgithabapi.domain.SearchRepository
 
 
 class GitHubApiRepositoryImpl(private val api: GitHubApi) : SearchRepository, FileProviderRepository {

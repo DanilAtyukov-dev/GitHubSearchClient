@@ -5,8 +5,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.danilatyukov.testtaskgithabapi.data.network.model.Resource
-import com.danilatyukov.testtaskgithabapi.data.repository.SearchRepository
+import com.danilatyukov.testtaskgithabapi.domain.Resource
+import com.danilatyukov.testtaskgithabapi.domain.SearchRepository
 import com.danilatyukov.testtaskgithabapi.ui.search.model.Repo
 import com.danilatyukov.testtaskgithabapi.ui.search.model.User
 import kotlinx.coroutines.Dispatchers

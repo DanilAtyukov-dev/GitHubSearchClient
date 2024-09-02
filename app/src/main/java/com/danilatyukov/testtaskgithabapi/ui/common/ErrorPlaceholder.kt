@@ -9,7 +9,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun ErrorPlaceholder(modifier: Modifier, msg: String, btnText: String, onClick:() -> Unit){
+fun ErrorPlaceholder(modifier: Modifier = Modifier, msg: String, btnText: String, onClick:() -> Unit){
     Column(modifier, verticalArrangement = Arrangement.Center, horizontalAlignment = Alignment.CenterHorizontally) {
         Text(text = msg)
         Button(onClick = onClick) {

@@ -35,7 +35,7 @@ fun FileProviderScreen(
                 ) {
                     ContentEntryCard(modifier = Modifier.fillMaxWidth().padding(horizontal = 10.dp), contentsEntry = it) {
                         when(it.type){
-                            ContentEntry.Type.File -> openFile(it.htmlUrl)
+                            ContentEntry.Type.File ->  it.htmlUrl?.let(openFile)
                             ContentEntry.Type.Dir -> navigateToDirectory(it.contentsUrl)
                         }
                     }

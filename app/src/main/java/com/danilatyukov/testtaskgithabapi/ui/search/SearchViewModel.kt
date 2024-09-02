@@ -26,7 +26,9 @@ class SearchViewModel(
     val showError get() = _showError
     val cards get() = _cards
 
-    fun search(text: String, pageNum: Int = 1, perPage: Int = 20) {
+    var query by mutableStateOf("")
+
+    fun search(text: String = query, pageNum: Int = 1, perPage: Int = 20) {
         _showLoader = true
         _showError = false
         requestJob?.cancel()

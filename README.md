@@ -2,9 +2,9 @@
 A mobile app for finding users and repositories on GitHub.
 
 # Screenshots
-| Search Screen                  | File Provider Screen                 | Webview Screen                  |
-|--------------------------------|--------------------------------------|---------------------------------|
-| ![](pictures/SearchScreen.png) | ![](pictures/FileProviderScreen.png) | ![](pictures/WebViewScreen.png) |
+| Search Screen                  | File Provider Screen                 | Webview Screen                                                                            |
+|--------------------------------|--------------------------------------|-------------------------------------------------------------------------------------------|
+| ![](pictures/SearchScreen.png) | ![](pictures/FileProviderScreen.png) | [![Watch the video](pictures/VideoPlay.png)](https://www.youtube.com/watch?v=FoqRNIhskU0) |
 
 # Architecture
 | Navigation Graph                  | Dependency Graph                  |
